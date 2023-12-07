@@ -7,7 +7,7 @@ function exibirMensagemInicial() {
 exibirMensagemInicial();
 
 function gerarNumeroAleatorio() {
-    let numeroEscolido = parseInt((Math.random() * 2 + 1));
+    let numeroEscolido = parseInt((Math.random() * 10 + 1));
     let qdtElementosNaLista = listaNumerosSorteados.length;
 
     if (qdtElementosNaLista == listaNumerosSorteados.length) {
