@@ -2,7 +2,7 @@ let listaNumerosSorteados = [];
 
 function exibirMensagemInicial() {
     exibirTextoNatela('h1', 'Jogo do número secreto');
-    exibirTextoNatela('p', 'Escolha um número entre 1 a 100');
+    exibirTextoNatela('p', 'Escolha um número entre 1 a 10');
 }
 exibirMensagemInicial();
 
